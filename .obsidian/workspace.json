@@ -171,6 +171,8 @@
   },
   "active": "5e28b91b9e20bf4b",
   "lastOpenFiles": [
+    "JPA/JPA와 캐시/JPA의 캐싱(Caching).md",
+    "JPA/JPA와 캐시/JPA의 영속성 컨텍스트(Persistence Context).md",
     "JPA/JPA.md",
     "processing/멀티스레드.md",
     "Untitled.canvas",
@@ -199,8 +201,6 @@
     "JPA/JPA와 캐시",
     "JPA/JPA와 메모리/JPA의 메모리 관리.md",
     "JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
-    "JPA/JPA와 캐시/JPA의 캐싱(Caching).md",
-    "JPA/JPA와 캐시/JPA의 영속성 컨텍스트(Persistence Context).md",
     "JPA",
     "JPA의 엔티티 매니저.md",
     "JPA/JPA와 메모리"
