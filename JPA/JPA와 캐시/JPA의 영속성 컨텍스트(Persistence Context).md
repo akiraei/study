@@ -89,13 +89,28 @@ entityManager.remove(customer);
 
 ### **3.1 기본 흐름**
 
-java
+```java
+EntityManager em = entityManagerFactory.createEntityManager(); 
 
-코드 복사
+em.getTransaction().begin();  
 
-`EntityManager em = entityManagerFactory.createEntityManager(); em.getTransaction().begin();  // 1. 비영속 상태에서 영속 상태로 변경 Customer customer = new Customer(); customer.setName("Alice"); em.persist(customer); // 영속 상태로 전환  // 2. 1차 캐시에 저장됨 (데이터베이스에는 반영되지 않음) Customer cachedCustomer = em.find(Customer.class, customer.getId()); // 캐시에서 조회  // 3. 변경 감지 (Dirty Checking) customer.setName("Bob"); // 상태 변화 추적  // 4. 쓰기 지연 (SQL 쿼리 생성) em.getTransaction().commit(); // 데이터베이스에 변경사항 반영 em.close();`
+// 1. 비영속 상태에서 영속 상태로 변경 Customer 
+customer = new Customer(); 
+customer.setName("Alice"); 
+em.persist(customer); // 영속 상태로 전환  
 
----
+// 2. 1차 캐시에 저장됨 (데이터베이스에는 반영되지 않음) 
+Customer cachedCustomer = em.find(Customer.class, customer.getId()); // 캐시에서 조회  
+
+// 3. 변경 감지 (Dirty Checking) 
+customer.setName("Bob"); // 상태 변화 추적  
+
+// 4. 쓰기 지연 (SQL 쿼리 생성) 
+em.getTransaction().commit(); // 데이터베이스에 변경사항 반영 
+
+em.close();
+```
+
 
 ### **3.2 엔티티 상태 변화**
 
@@ -103,12 +118,9 @@ java
 
 - `persist()`, `find()`, `merge()`를 호출하면 객체가 영속 상태로 전환됩니다.
 
-java
-
-코드 복사
-
-`em.persist(customer); // 비영속 → 영속`
-
+```java
+em.persist(customer); // 비영속 -> 영속
+```ㅋ
 #### **영속 → 준영속**
 
 - `detach()`를 호출하거나 `EntityManager`가 종료되면 준영속 상태로 전환됩니다.
