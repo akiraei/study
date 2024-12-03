@@ -1,4 +1,13 @@
 
+
+## JPA Object Map
+
+```mermaid
+
+
+```
+
+
 ### **1. JPA란?**
 
 **JPA (Java Persistence API)**는 Java에서 관계형 데이터베이스를 다루기 위한 **ORM (Object-Relational Mapping)** 표준 인터페이스입니다. Java 객체와 데이터베이스 테이블 간의 매핑을 자동화하여 SQL을 직접 작성하지 않고도 데이터베이스 작업을 수행할 수 있도록 도와줍니다.
