@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ORM의 문제와 도메인 설계.md",
+                "file": "N+1 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ORM의 문제와 도메인 설계"
+              "title": "N+1 문제"
             }
           }
         ],
@@ -242,10 +242,10 @@
   },
   "active": "d9cc85afaa7e1309",
   "lastOpenFiles": [
-    "JPA/JPA.md",
-    "ORM의 문제와 도메인 설계.md",
     "N+1 and Custom BatchSize Annotation.md",
     "N+1 문제.md",
+    "ORM의 문제와 도메인 설계.md",
+    "JPA/JPA.md",
     "JPA/JPA와 메모리/JPA의 메모리 관리.md",
     "JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
     "JPA/JPA의 캐싱(Caching).md",
