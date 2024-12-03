@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "N+1 문제.md",
+                "file": "JPA/N+1/N+1 문제.md",
                 "mode": "source",
                 "source": false
               },
@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "N+1 문제.md",
+                "file": "JPA/N+1/N+1 문제.md",
                 "mode": "source",
                 "source": false
               },
@@ -240,11 +240,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9cc85afaa7e1309",
+  "active": "0a039d460ae22e11",
   "lastOpenFiles": [
-    "N+1 and Custom BatchSize Annotation.md",
-    "N+1 문제.md",
-    "ORM의 문제와 도메인 설계.md",
+    "JPA/N+1",
+    "JPA/N+1/N+1 and Custom BatchSize Annotation.md",
+    "JPA/N+1/N+1 문제.md",
+    "JPA/ORM의 문제와 도메인 설계.md",
     "JPA/JPA.md",
     "JPA/JPA와 메모리/JPA의 메모리 관리.md",
     "JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
@@ -268,7 +269,6 @@
     "processing/멀티스레드와 비동기처리.md",
     "processing/논블로킹 io의 역사.md",
     "processing/논블로킹 io와 멀티프로세싱.md",
-    "processing/논블로킹 모델과 컨텍스트 스위칭.md",
     "대규모 트래픽 처리",
     "processing",
     "스프링",
