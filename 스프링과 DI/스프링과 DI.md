@@ -1,4 +1,3 @@
-# 스프링과 의존성 주입(Dependency Injection, DI)
 
 ## **스프링 IoC 컨테이너**
 스프링의 **IoC(Inversion of Control) 컨테이너**는 객체(빈)의 생성, 관리, 의존성 주입, 그리고 라이프사이클 관리를 책임지는 스프링의 핵심 컴포넌트입니다. 스프링에서는 `ApplicationContext`와 `BeanFactory` 인터페이스를 통해 IoC 컨테이너가 구현됩니다.
