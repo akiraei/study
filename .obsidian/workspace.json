@@ -140,7 +140,7 @@
               "type": "markdown",
               "state": {
                 "file": "JPA/N+1/EntityGraph in JPA.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -296,7 +296,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a039d460ae22e11",
+  "active": "e3d91b2152fa9a65",
   "lastOpenFiles": [
     "processing/논 블로킹 모델의 강력함.md",
     "JPA/JPA MindMap.md",
