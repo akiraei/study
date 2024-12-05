@@ -4,151 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2b22d9a8eef96569",
+        "id": "979c170377bbd77d",
         "type": "tabs",
         "children": [
           {
-            "id": "5e28b91b9e20bf4b",
+            "id": "9de8b62bb5cbb4ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/JPA와 메모리/JPA의 메모리 관리.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "JPA의 메모리 관리"
-            }
-          },
-          {
-            "id": "ff5fa5b4f7f00c58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JPA 메모리 관리법의 장단점 및 적절한 상황"
-            }
-          },
-          {
-            "id": "c8b60a07b5baf6f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/JPA와 메모리/JPA의 메모리 관리.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JPA의 메모리 관리"
-            }
-          },
-          {
-            "id": "378a96751d91491b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/N+1/N+1 문제.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "N+1 문제"
-            }
-          },
-          {
-            "id": "a6f2ffce78c2a75b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/JPA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JPA"
-            }
-          },
-          {
-            "id": "d9cc85afaa7e1309",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/N+1/N+1 문제.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "N+1 문제"
-            }
-          },
-          {
-            "id": "8bb0b0d6bfb343f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/N+1/EntityGraph in JPA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EntityGraph in JPA"
-            }
-          },
-          {
-            "id": "d27411a7db37e059",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링과 DI/스프링과 DI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "스프링과 DI"
-            }
-          },
-          {
-            "id": "adb2e9be587a6d0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링과 DI/IoC 컨테이너.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IoC 컨테이너"
-            }
-          },
-          {
-            "id": "e3d91b2152fa9a65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JPA/N+1/EntityGraph in JPA.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EntityGraph in JPA"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -296,26 +165,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3d91b2152fa9a65",
+  "active": "0a039d460ae22e11",
   "lastOpenFiles": [
+    "JPA/JPA와 메모리/JPA의 메모리 관리.md",
+    "JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
+    "JPA/N+1/N+1 문제.md",
+    "JPA/JPA.md",
+    "JPA/N+1/EntityGraph in JPA.md",
+    "스프링과 DI/스프링과 DI.md",
+    "스프링과 DI/IoC 컨테이너.md",
+    "JPA/ORM의 문제와 도메인 설계.md",
     "processing/논 블로킹 모델의 강력함.md",
     "JPA/JPA MindMap.md",
     "JPA/JPA의 영속성 컨텍스트(Persistence Context).md",
     "JPA/JPA의 캐싱(Caching).md",
-    "JPA/ORM의 문제와 도메인 설계.md",
     "JPA/N+1/N+1 and Custom BatchSize Annotation.md",
-    "JPA/N+1/N+1 문제.md",
-    "JPA/JPA와 메모리/JPA의 메모리 관리.md",
-    "JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
     "데이터베이스/샤딩.md",
     "데이터베이스/트랜잭션 동시성, 데이터 일관성.md",
-    "스프링과 DI/스프링과 DI.md",
     "스프링과 DI/ApplicationContext.md",
-    "스프링과 DI/IoC 컨테이너.md",
     "스프링과 DI",
-    "JPA/N+1/EntityGraph in JPA.md",
     "JPA/N+1",
-    "JPA/JPA.md",
     "JPA/영속성 컨텍스트와 ORM.md",
     "processing/멀티스레드.md",
     "Untitled.canvas",
