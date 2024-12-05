@@ -4,58 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "979c170377bbd77d",
-        "type": "tabs",
+        "id": "867dd01394848706",
+        "type": "split",
         "children": [
           {
-            "id": "9de8b62bb5cbb4ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링과 DI/스프링과 DI.md",
-                "mode": "source",
-                "source": false
+            "id": "979c170377bbd77d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9de8b62bb5cbb4ee",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "스프링과 DI/스프링과 DI.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "스프링과 DI"
+                }
               },
-              "icon": "lucide-file",
-              "title": "스프링과 DI"
-            }
+              {
+                "id": "2ce7448a7c38cbf9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "스프링과 DI/스프링과 DI Map.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "스프링과 DI Map"
+                }
+              }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "2ce7448a7c38cbf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링과 DI/스프링과 DI Map.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "스프링과 DI Map"
-            }
+            "id": "274eb42c3d9211ec",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bcb8ed37b5f75749",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "JPA/ORM의 문제와 도메인 설계.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ORM의 문제와 도메인 설계"
+                }
+              }
+            ]
           }
-        ]
-      },
-      {
-        "id": "2651a8c6ff287ef5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "200b63236d146ce5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스프링과 DI/스프링과 DI Map.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "스프링과 DI Map"
-            }
-          }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -203,12 +211,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "200b63236d146ce5",
+  "active": "bcb8ed37b5f75749",
   "lastOpenFiles": [
+    "JPA/영속성 컨텍스트와 ORM.md",
+    "데이터베이스/샤딩.md",
     "스프링과 DI/스프링과 DI.md",
     "스프링과 DI/스프링과 DI Map.md",
-    "JPA/JPA MindMap.md",
+    "스프링과 DI/ApplicationContext.md",
     "스프링과 DI/IoC 컨테이너.md",
+    "JPA/JPA MindMap.md",
     "JPA/JPA의 캐싱(Caching).md",
     "JPA/ORM의 문제와 도메인 설계.md",
     "JPA/JPA의 영속성 컨텍스트(Persistence Context).md",
@@ -219,12 +230,9 @@
     "JPA/JPA와 메모리/JPA의 메모리 관리.md",
     "JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
     "processing/논 블로킹 모델의 강력함.md",
-    "데이터베이스/샤딩.md",
     "데이터베이스/트랜잭션 동시성, 데이터 일관성.md",
-    "스프링과 DI/ApplicationContext.md",
     "스프링과 DI",
     "JPA/N+1",
-    "JPA/영속성 컨텍스트와 ORM.md",
     "processing/멀티스레드.md",
     "Untitled.canvas",
     "2024-12-02.md",

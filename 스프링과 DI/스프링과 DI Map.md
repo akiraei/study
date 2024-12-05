@@ -3,24 +3,26 @@
 mindmap
   root((DI))
 	  Ioc Container
-		  Interface
-			  ApplicationContext
-				  Methods
-					  getBean String name
-					  getBean Class<T> requiredType
-					  publishEvent Object event
-					  getEnvironment
-				  implementations
-					  AnnotationConfigApplicationContext
-					  ClassPathEmlApplicationContext
-					  GenericWebAppliactionContext
-			  BeanFactory
+		  ApplicationContext
+			  Methods
+				  getBean String name
+				  getBean Class<T> requiredType
+				  publishEvent Object event
+				  getEnvironment
+			  implementations
+				  AnnotationConfigApplicationContext
+				  ClassPathEmlApplicationContext
+				  GenericWebAppliactionContext
+		  BeanFactory
 	  DI
-		  Filed Injection
-		  Constructor Injection
-		  Setter Injection
-	  
-	
-	  
+		  way
+			  Filed Injection
+			  Constructor Injection
+			  Setter Injection
+		  how
+			  load context
+			  register bean
+			  create and inject
+			  managing lifecycle
 ```
 
