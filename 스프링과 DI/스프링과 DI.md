@@ -20,7 +20,9 @@
 public class UserService {     
 	private UserRepository userRepository = new UserRepository(); // 직접 객체 생성 
 }  
+```
 
+```
 // 의존성 주입 
 public class UserService {     
 	private UserRepository userRepository;      // 생성자를 통해 외부에서 주입     
@@ -65,13 +67,14 @@ public class UserService {
     - 필드에 `@Autowired`를 붙이면 스프링이 자동으로 주입.
     
     **예제**:
-    ```java
+```java
   @Service 
   public class UserService {     
 	  @Autowired     
 	  private UserRepository userRepository; // 필드 주입 
-  }```
-    
+  }
+```
+
     **장점**:
     - 간단한 구현.
     - 코드가 짧고 깔끔.
