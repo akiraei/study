@@ -43,15 +43,15 @@
 ## IoC 컨테이너 구성 방법
 
 ### 1. XML 기반 설정
-<><><>xml
+```xml
 <!-- applicationContext.xml -->
 <beans>
     <bean id="myBean" class="com.example.MyBean" />
 </beans>
-<><><>
+```
 
 ### 2. Java Config 기반 설정
-<><><>java
+```java
 @Configuration
 public class AppConfig {
     @Bean
@@ -59,15 +59,15 @@ public class AppConfig {
         return new MyBean();
     }
 }
-<><><>
+```
 
 ### 3. 어노테이션 기반 설정
-<><><>java
+```java
 @Component
 public class MyBean {
     // Bean 정의
 }
-<><><>
+```
 
 ---
 
@@ -92,17 +92,17 @@ public class MyBean {
 ## IoC 컨테이너 사용 예제
 
 ### XML 설정과 BeanFactory 사용
-<><><>java
+```java
 Resource resource = new ClassPathResource("applicationContext.xml");
 BeanFactory factory = new XmlBeanFactory(resource);
 MyBean myBean = factory.getBean(MyBean.class);
-<><><>
+```
 
 ### Java Config와 ApplicationContext 사용
-<><><>java
+```java
 ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 MyBean myBean = context.getBean(MyBean.class);
-<><><>
+```
 
 ---
 
