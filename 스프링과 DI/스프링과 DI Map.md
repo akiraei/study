@@ -3,18 +3,24 @@
 mindmap
   root((DI))
 	  Ioc Container
-		  implements ApplecationContext
-		  implements BeanFactory
-	  ApplicationContext
 		  Interface
-		  Methods
-			  getBean(String name)
-			  getBean(Class<T> requiredType)
-			  publishEvent(Object event)
-			  getEnvironment()
-		  
-	  BeanFactory
-		  Interface
+			  ApplicationContext
+				  Methods
+					  getBean String name
+					  getBean Class<T> requiredType
+					  publishEvent Object event
+					  getEnvironment
+				  implementations
+					  AnnotationConfigApplicationContext
+					  ClassPathEmlApplicationContext
+					  GenericWebAppliactionContext
+			  BeanFactory
+	  DI
+		  Filed Injection
+		  Constructor Injection
+		  Setter Injection
+	  
+	
 	  
 ```
 
