@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링과 DI/ApplicationContext.md",
+                "file": "스프링과 DI/IoC 컨테이너.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ApplicationContext"
+              "title": "IoC 컨테이너"
             }
           }
         ],
@@ -299,8 +299,8 @@
   "active": "e3d91b2152fa9a65",
   "lastOpenFiles": [
     "스프링과 DI/스프링과 DI.md",
-    "스프링과 DI/ApplicationContext.md",
     "스프링과 DI/IoC 컨테이너.md",
+    "스프링과 DI/ApplicationContext.md",
     "스프링과 DI",
     "EntityGraph.md",
     "JPA/N+1/N+1 문제.md",
