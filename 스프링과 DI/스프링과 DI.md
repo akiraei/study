@@ -16,13 +16,21 @@
     - 객체 간의 결합도를 낮춰, 코드의 재사용성과 테스트 용이성을 높임.
 
 #### **직접 의존성 설정과 의존성 주입의 차이**
+```java
+// 직접 의존성 설정 
+public class UserService {     
+	private UserRepository userRepository = new UserRepository(); // 직접 객체 생성 
+}  
 
-java
+// 의존성 주입 
+public class UserService {     
+	private UserRepository userRepository;      // 생성자를 통해 외부에서 주입     
 
-코드 복사
-
-`// 직접 의존성 설정 public class UserService {     private UserRepository userRepository = new UserRepository(); // 직접 객체 생성 }  // 의존성 주입 public class UserService {     private UserRepository userRepository;      // 생성자를 통해 외부에서 주입     public UserService(UserRepository userRepository) {         this.userRepository = userRepository;     } }`
-
+	public UserService(UserRepository userRepository) {
+		this.userRepository = userRepository;     
+	} 
+}
+```
 ---
 
 ### **2. 스프링 DI의 동작 원리**
