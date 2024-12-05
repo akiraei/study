@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "스프링을 잘한다'의 정의.md",
+                "file": "스프링을 잘한다의 정의.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링을 잘한다'의 정의"
+              "title": "스프링을 잘한다의 정의"
             }
           },
           {
@@ -201,7 +201,7 @@
   "active": "828dd042d4e94151",
   "lastOpenFiles": [
     "JPA/JPA MindMap.md",
-    "스프링을 잘한다'의 정의.md",
+    "스프링을 잘한다의 정의.md",
     "스프링과 DI/스프링과 DI.md",
     "JPA/ORM의 문제와 도메인 설계.md",
     "JPA/영속성 컨텍스트와 ORM.md",
