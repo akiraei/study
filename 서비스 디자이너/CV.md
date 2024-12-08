@@ -1,6 +1,8 @@
 
 이름: 김영빈
+
 Phone: 010-6543-9486
+
 email: akiraeiphoto@gmail.com
 
 ### 핵심역량
