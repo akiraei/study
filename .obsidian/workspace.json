@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "cc990617e5bfac50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "서비스 디자이너/CV.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CV"
+            }
+          },
+          {
             "id": "8f96d653403f0d82",
             "type": "leaf",
             "state": {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "53c468e4fed1fe69",
@@ -246,10 +260,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8846d4e84ccf067b",
+  "active": "cc990617e5bfac50",
   "lastOpenFiles": [
-    "서비스 디자이너/RNR.md",
     "서비스 디자이너/JD.md",
+    "서비스 디자이너/CV.md",
+    "서비스 디자이너/RNR.md",
     "Untitled",
     "개발/스프링을 잘한다의 정의.md",
     "서비스 디자이너",
@@ -279,7 +294,6 @@
     "2024-12-02.md",
     "개발/processing/대규모 트래픽 처리.md",
     "개발/processing/동시성.md",
-    "개발/processing/동시성과 cpu 바운드 vs io 바운드.md",
     "대규모 트래픽 처리",
     "개발/processing",
     "개발",
