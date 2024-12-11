@@ -11,10 +11,14 @@
             "id": "36258a0b2125999f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "일본어 500곡/list.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "list"
             }
           }
         ]
