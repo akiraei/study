@@ -8,90 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9de8b62bb5cbb4ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "개발/스프링과 DI/스프링과 DI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "스프링과 DI"
-            }
-          },
-          {
-            "id": "828dd042d4e94151",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "개발/스프링을 잘한다의 정의.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "스프링을 잘한다의 정의"
-            }
-          },
-          {
-            "id": "88f5be8b5db62ca4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "서비스 디자이너/RNR.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RNR"
-            }
-          },
-          {
-            "id": "cc990617e5bfac50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "서비스 디자이너/RNR.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RNR"
-            }
-          },
-          {
-            "id": "4ac0da720bab56ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "일본어 500곡/list.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "list"
-            }
-          },
-          {
-            "id": "8f96d653403f0d82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "서비스 디자이너/JD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JD"
-            }
-          },
-          {
             "id": "2ce7448a7c38cbf9",
             "type": "leaf",
             "state": {
@@ -105,8 +21,7 @@
               "title": "스프링과 DI Map"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,18 +169,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ac0da720bab56ee",
+  "active": "2ce7448a7c38cbf9",
   "lastOpenFiles": [
     "서비스 디자이너/JD.md",
+    "개발/스프링과 DI/스프링과 DI.md",
+    "개발/스프링을 잘한다의 정의.md",
+    "서비스 디자이너/RNR.md",
     "일본어 500곡/list.md",
     "일본어 500곡",
-    "서비스 디자이너/RNR.md",
     "서비스 디자이너/CV.md",
-    "개발/스프링을 잘한다의 정의.md",
     "서비스 디자이너",
     "개발",
     "개발/JPA/JPA MindMap.md",
-    "개발/스프링과 DI/스프링과 DI.md",
     "개발/JPA/ORM의 문제와 도메인 설계.md",
     "개발/JPA/영속성 컨텍스트와 ORM.md",
     "개발/데이터베이스/샤딩.md",
