@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "979c170377bbd77d",
+        "id": "ebf6bfe58753ac52",
         "type": "tabs",
         "children": [
           {
-            "id": "2ce7448a7c38cbf9",
+            "id": "36258a0b2125999f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "개발/스프링과 DI/스프링과 DI Map.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "스프링과 DI Map"
+              "title": "New tab"
             }
           }
         ]
@@ -169,8 +165,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ce7448a7c38cbf9",
+  "active": "36258a0b2125999f",
   "lastOpenFiles": [
+    "개발/스프링과 DI/스프링과 DI Map.md",
     "서비스 디자이너/JD.md",
     "개발/스프링과 DI/스프링과 DI.md",
     "개발/스프링을 잘한다의 정의.md",
@@ -184,7 +181,6 @@
     "개발/JPA/ORM의 문제와 도메인 설계.md",
     "개발/JPA/영속성 컨텍스트와 ORM.md",
     "개발/데이터베이스/샤딩.md",
-    "개발/스프링과 DI/스프링과 DI Map.md",
     "개발/스프링과 DI/ApplicationContext.md",
     "개발/스프링과 DI/IoC 컨테이너.md",
     "개발/JPA/JPA의 캐싱(Caching).md",
