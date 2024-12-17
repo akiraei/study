@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "36258a0b2125999f",
+  "active": "0a039d460ae22e11",
   "lastOpenFiles": [
     "서비스 디자이너/JD.md",
     "서비스 디자이너/CV.md",
