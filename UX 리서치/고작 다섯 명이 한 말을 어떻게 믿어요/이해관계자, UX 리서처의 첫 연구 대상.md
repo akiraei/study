@@ -41,7 +41,63 @@
 | Eng  | 0   | 0   | 1    | 1   | 0    |
 | Data | 0   | 1   | 0    | 0   | 0    |
 
+```mermaid
+classDiagram
 
+    Why <|.. UXR
+
+    Who <|.. UXR 
+    Who <|.. UXD
+    Who <|.. Data
+
+    What <|.. UXD
+    What <|.. PM
+    What <|.. Eng
+
+    How <|.. Eng
+
+    When <|.. PM
+
+    Why --> Who
+    Who --> What
+    How <-- What
+    When --> What
+    When --> How
+
+    class What {
+        +Research research
+        +Product product
+    }
+
+    class Why {
+        +Research research
+    }
+
+    class Who {
+        +Research research
+    }
+
+    class How {
+        +Product product
+    }
+
+    class When {
+        +Product product
+    }
+
+    class Eng {
+        +Unique how
+    }
+
+    class PM {
+        +Unique when
+    }
+
+    class UXR {
+        +Unique why
+    }
+
+```
 
 ### 이해관계자 인터뷰
 
