@@ -32,20 +32,26 @@
 | what | UXD, PM, ENG   | - 그 니즈를 어떻게 맞출 수 있는가?<br>- 어떤 제품을 만들까?<br>- 무슨 모듈이 있어야 할까?           |
 | how  | UXD, Eng       | - 그 니즈를 만족시키는 행동을 어떻게 유도 할 것 인가?<br>- 제품을 어떻게 만들까?                   |
 | when | PM             | - 제품을 언제까지 만들어야 하는가?                                                 |
+
+| 직군   | why | who | what | how | when |
+| ---- | --- | --- | ---- | --- | ---- |
+| UXR  | 1   | 1   | 0    | 0   | 0    |
+| UXD  | 1   | 1   | 1    | 1   | 0    |
+| PM   | 0   | 0   | 1    | 0   | 1    |
+| Eng  | 0   | 0   | 1    | 1   | 0    |
+| Data | 0   | 1   | 0    | 0   | 0    |
+
 ```mermaid
+%%{init: {'theme': 'default'}}%%
 mindmap
 	root((ask))
 		why
 			uxr
-
 			uxd
-
 		who
-
 			uxr
-
 			uxd
-			datai
+			data
 		how
 			uxd
 			eng
