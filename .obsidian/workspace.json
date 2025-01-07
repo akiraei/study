@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "멀티스레드와 비동기처리"
             }
+          },
+          {
+            "id": "43aabc75cccbf788",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "개발/flutter/tips.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tips"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,10 +198,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "214f98fcc8882d4f",
+  "active": "43aabc75cccbf788",
   "lastOpenFiles": [
-    "개발/processing/논블로킹 io의 역사.md",
     "개발/processing/멀티스레드와 비동기처리.md",
+    "개발/flutter/tips.md",
+    "개발/flutter",
+    "개발/processing/논블로킹 io의 역사.md",
     "개발/processing/멀티스레드와 스레드풀.md",
     "개발/processing/동시성과 io 바운드 작업.md",
     "UX 리서치/고작 다섯 명이 한 말을 어떻게 믿어요/이해관계자, UX 리서처의 첫 연구 대상.md",
@@ -216,12 +232,10 @@
     "개발/JPA/N+1/N+1 문제.md",
     "개발/JPA/N+1/EntityGraph in JPA.md",
     "개발/JPA/JPA와 메모리/JPA의 메모리 관리.md",
-    "개발/JPA/JPA와 메모리/JPA 메모리 관리법의 장단점 및 적절한 상황.md",
     "개발/스프링과 DI",
     "개발/JPA/N+1",
     "Untitled.canvas",
     "대규모 트래픽 처리",
-    "개발/processing",
-    "개발"
+    "개발/processing"
   ]
 }
