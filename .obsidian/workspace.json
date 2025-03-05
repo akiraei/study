@@ -111,7 +111,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "왜 작은 비지니스에서는 RAG 말고는 불가능한가?.md",
+                "file": "LLM/왜 작은 비지니스에서는 RAG 말고는 불가능한가?.md",
                 "mode": "source",
                 "source": false
               },
@@ -269,10 +269,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5a78500bd91309d",
+  "active": "0a039d460ae22e11",
   "lastOpenFiles": [
     "LLM/RAG는 LLM 기술이 아니다.md",
-    "왜 작은 비지니스에서는 RAG 말고는 불가능한가?.md",
+    "LLM/왜 작은 비지니스에서는 RAG 말고는 불가능한가?.md",
     "LLM/LLM의 응용.md",
     "LLM/어텐션과 트랜스포머 모델.md",
     "LLM/딥러닝 & 텐서, 토큰화 & 임베딩 정리.md",
